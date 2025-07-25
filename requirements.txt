@@ -1,8 +1,0 @@
-langchain
-openai
-tiktoken
-langchain_community
-faiss-cpu
-langchain_openai
-streamlit
-langchain-cli
