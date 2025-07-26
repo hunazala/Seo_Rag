@@ -99,7 +99,7 @@ def initialize_rag():
         
         llm = ChatOpenAI(
             model="gpt-4.1",  # Updated to a more reliable model
-            temperature=0.1,
+            temperature=0.2,
             api_key=api_key
         )
         
@@ -125,7 +125,7 @@ def initialize_rag():
             st.error("FAISS index not found. Please ensure the FAISS database exists in the 'faiss_index' directory.")
             return None
         
-        retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 10})
+        retriever = vectorstore.as_retriever(search_type="mmr", search_kwargs={"k": 10, "fetch_k": 20})
         
         prompt_template = ChatPromptTemplate.from_messages([
             ("system", SYSTEM_PROMPT),
