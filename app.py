@@ -50,7 +50,7 @@ IMMEDIATE BLOG - PUBLISH TODAY:
 Title: [Compelling title targeting main keyword]
 Target Keyword: [Primary keyword from gap analysis]
 URL Slug: /blog/[keyword-focused-url]
-
+words should be 1200-1500 for this blog
 [Write complete 1200-1500 word blog post in natural paragraphs. No bullets. Include stories, examples, statistics. Make it engaging and human.]
 
 BLOG #2 - PUBLISH IN 3 DAYS:
